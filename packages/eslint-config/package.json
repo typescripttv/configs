@@ -1,0 +1,38 @@
+{
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.46.1",
+    "@typescript-eslint/parser": "5.46.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-sort-keys-fix": "1.1.2",
+    "eslint-plugin-typescript-sort-keys": "2.1.0",
+    "eslint-plugin-unused-imports": "2.0.0"
+  },
+  "description": "Shareable ESLint Config",
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "license": "MIT",
+  "main": ".eslintrc.json",
+  "name": "@tstv/eslint-config",
+  "peerDependencies": {
+    "eslint": "^8"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages",
+    "type": "git",
+    "url": "git+https://github.com/typescripttv/tsconfigs.git"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "clean": "exit 0",
+    "dist": "yarn clean && yarn build",
+    "test": "yarn test:types",
+    "test:types": "exit 0"
+  },
+  "version": "0.0.3"
+}
