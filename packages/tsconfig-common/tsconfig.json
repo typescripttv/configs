@@ -17,10 +17,8 @@
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
     "removeComments": true,
     "resolveJsonModule": true,
-    "rootDir": "src",
     "sourceMap": true,
     "strict": true,
     "target": "es6"
