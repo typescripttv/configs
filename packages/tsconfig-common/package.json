@@ -1,0 +1,27 @@
+{
+  "description": "A base TSConfig for working with Create React App.",
+  "keywords": [
+    "tsconfig",
+    "typescripttv",
+    "typescript",
+    "config"
+  ],
+  "license": "MIT",
+  "name": "@tstv/tsconfig-common",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "directory": "packages",
+    "type": "git",
+    "url": "git+https://github.com/typescripttv/tsconfigs.git"
+  },
+  "scripts": {
+    "build": "exit 0",
+    "clean": "rimraf src/**/*{.js,.js.map,.d.ts}",
+    "dist": "yarn clean && yarn build",
+    "test": "yarn test:types",
+    "test:types": "exit 0"
+  },
+  "version": "0.0.0"
+}
