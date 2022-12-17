@@ -1,0 +1,24 @@
+{
+  "devDependencies": {
+    "lerna": "5.1.8",
+    "prettier": "2.7.1",
+    "rimraf": "3.0.2",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  },
+  "name": "ts-lerna-template",
+  "private": true,
+  "scripts": {
+    "boot": "lerna bootstrap --reject-cycles",
+    "clean": "lerna run clean --parallel",
+    "dist": "lerna run dist",
+    "release": "yarn install && yarn dist && lerna publish && yarn clean",
+    "style": "prettier --ignore-path .gitignore \"**/*.{md,json,html,ts}\" --write",
+    "test": "lerna run --no-sort --concurrency 8 test"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
