@@ -1,0 +1,5 @@
+pre-commit:
+  parallel: false
+  commands:
+    1_prettier:
+      run: yarn pretty-quick --staged --ignore-path .gitignore

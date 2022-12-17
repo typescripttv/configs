@@ -1,5 +1,5 @@
 {
-  "description": "A base TSConfig for working with Create React App.",
+  "description": "Great TypeScript config for common projects.",
   "keywords": [
     "tsconfig",
     "typescripttv",

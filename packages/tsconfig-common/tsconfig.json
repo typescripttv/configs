@@ -3,13 +3,15 @@
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-              "declaration": true,
+    "declaration": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
-    "lib": ["es2017"],
+    "lib": [
+      "es2017"
+    ],
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "lf",
@@ -24,5 +26,9 @@
     "target": "es6"
   },
   "display": "Common",
-  "exclude": ["coverage", "dist", "node_modules"]
+  "exclude": [
+    "coverage",
+    "dist",
+    "node_modules"
+  ]
 }
