@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@0.1.0...@tstv/tsconfig-common@0.2.0) (2022-12-28)
+
+### Features
+
+- **tsconfig-common:** Add React config ([7cdb30c](https://github.com/typescripttv/tsconfigs/commit/7cdb30c7809dbcf6e7061ddcc7339bd17669ecd3))
+
 # [0.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@0.0.3...@tstv/tsconfig-common@0.1.0) (2022-12-17)
 
 ### Features
