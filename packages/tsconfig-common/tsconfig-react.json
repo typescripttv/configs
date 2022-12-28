@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "jsx": "react",
+    "lib": ["es2017", "dom"]
+  },
+  "display": "React",
+  "extends": "./tsconfig.json"
+}
