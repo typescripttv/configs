@@ -9,7 +9,7 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "importsNotUsedAsValues": "error",
-    "lib": ["es2017"],
+    "lib": ["ES2017"],
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "lf",
@@ -22,7 +22,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "es6"
+    "target": "ES2015"
   },
   "display": "Common",
   "exclude": ["coverage", "dist", "node_modules"]

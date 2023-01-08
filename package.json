@@ -14,9 +14,9 @@
     "boot": "lerna bootstrap --reject-cycles",
     "clean": "lerna run clean --parallel",
     "dist": "lerna run dist",
-    "prerelease": "yarn style",
+    "fix": "prettier --ignore-path .gitignore \"**/*.{md,json,html,ts}\" --write",
+    "prerelease": "yarn fix",
     "release": "yarn install && yarn dist && lerna publish && yarn clean",
-    "style": "prettier --ignore-path .gitignore \"**/*.{md,json,html,ts}\" --write",
     "test": "lerna run --no-sort --concurrency 8 test"
   },
   "workspaces": {
