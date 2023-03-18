@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@0.3.0...@tstv/tsconfig-common@2.0.0) (2023-03-18)
+
+### ⚠ BREAKING CHANGES
+
+- Testing breaking changes with Lerna publish
+
+### Code Refactoring
+
+- Testing breaking changes with Lerna publish ([bb7b144](https://github.com/typescripttv/tsconfigs/commit/bb7b1440d6358d574778b29da0ef449726ced9a6))
+
 ## [0.3.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@0.2.1...@tstv/tsconfig-common@0.3.0) (2023-03-18)
 
 ### Features

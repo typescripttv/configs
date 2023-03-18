@@ -23,5 +23,5 @@
     "test": "yarn test:types",
     "test:types": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig-react.json --noEmit"
   },
-  "version": "1.0.0"
+  "version": "2.0.0"
 }
