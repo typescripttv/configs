@@ -21,7 +21,7 @@
     "clean": "exit 0",
     "dist": "yarn clean && yarn build",
     "test": "yarn test:types",
-    "test:types": "exit 0"
+    "test:types": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig-react.json --noEmit"
   },
   "version": "0.2.1"
 }

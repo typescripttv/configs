@@ -8,8 +8,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "importsNotUsedAsValues": "error",
-    "lib": ["ES2017"],
+    "lib": ["ES2022"],
     "module": "commonjs",
     "moduleResolution": "node",
     "newLine": "lf",
@@ -22,7 +21,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES2015"
+    "target": "ES2022"
   },
   "display": "Common",
   "exclude": ["coverage", "dist", "node_modules"]
