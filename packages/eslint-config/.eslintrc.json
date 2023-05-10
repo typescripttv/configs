@@ -27,6 +27,7 @@
         "ignoreIIFE": true
       }
     ],
+    "@typescript-eslint/no-import-type-side-effects": "error",
     "@typescript-eslint/no-namespace": "off",
     "@typescript-eslint/no-redeclare": ["error"],
     "@typescript-eslint/no-this-alias": "error",
