@@ -1,6 +1,18 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [2.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@2.0.1...@tstv/eslint-config@2.1.0) (2023-08-02)
+
+
+### Features
+
+* Compatibility with Prettier v3 ([b80440f](https://github.com/typescripttv/tsconfigs/commit/b80440f1b4e6eb8a12f5d977054f2a325ecb1437))
+* Disallow any type in function arguments ([0fc41ce](https://github.com/typescripttv/tsconfigs/commit/0fc41ce0fd48ee6f0f0989ad0d4a05e0b86d814a))
+* Enforce the use of top-level import type qualifier ([9c940db](https://github.com/typescripttv/tsconfigs/commit/9c940dbe91d64481e08745b6828b5376159937cd))
+
+
 
 ## [2.0.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@2.0.0...@tstv/eslint-config@2.0.1) (2023-04-01)
 
