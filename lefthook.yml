@@ -1,5 +1,6 @@
 pre-commit:
-  parallel: false
+  parallel: true
   commands:
-    1_prettier:
-      run: yarn pretty-quick --staged --ignore-path .gitignore
+    format:
+      glob: '*.{css,html,json,less,md,scss,yml}'
+      run: npx prettier --write --log-level error {staged_files}
