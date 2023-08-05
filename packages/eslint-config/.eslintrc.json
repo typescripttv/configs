@@ -39,7 +39,7 @@
     "@typescript-eslint/typedef": "off",
     "curly": "error",
     "dot-notation": "off",
-    "import/extensions": ["error", "ignorePackages"],
+    "import/no-commonjs": ["error"],
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
