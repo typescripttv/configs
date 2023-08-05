@@ -33,3 +33,7 @@ When this package is installed, you can reference its exported TypeScript config
   "extends": "@tstv/tsconfig-common/tsconfig-react.json"
 }
 ```
+
+## Alternatives
+
+- https://github.com/tsconfig/bases/

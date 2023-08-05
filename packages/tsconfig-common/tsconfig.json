@@ -8,9 +8,9 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["ES2022"],
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "lib": ["es2022"],
+    "module": "es2022",
+    "moduleResolution": "node16",
     "newLine": "lf",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
@@ -22,7 +22,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "strict": true,
-    "target": "ES2022"
+    "target": "es2022"
   },
   "display": "Common",
   "exclude": ["coverage", "dist", "node_modules"]
