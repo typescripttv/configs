@@ -1,6 +1,20 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [3.0.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@2.1.0...@tstv/eslint-config@3.0.0) (2023-08-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* Enforce ECMAScript Modules and ES2022 (#1)
+
+### Features
+
+* Enforce ECMAScript Modules and ES2022 ([#1](https://github.com/typescripttv/tsconfigs/issues/1)) ([d1930c2](https://github.com/typescripttv/tsconfigs/commit/d1930c2b470b43ac09875afe4e24f52a1e3e794c))
+
+
 
 ## [2.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@2.0.1...@tstv/eslint-config@2.1.0) (2023-08-02)
 

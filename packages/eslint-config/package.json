@@ -37,5 +37,5 @@
     "fix": "npm run test -- --fix",
     "test": "eslint -c ./.eslintrc.json --parser-options project:../tsconfig-common/tsconfig.json ../tsconfig-common/index.ts"
   },
-  "version": "2.1.0"
+  "version": "3.0.0"
 }
