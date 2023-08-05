@@ -12,3 +12,7 @@ Edit your `.eslintrc.json` file and add the following:
   extends: '@tstv/eslint-config',
 }
 ```
+
+## Alternatives
+
+- https://github.com/JoshuaKGoldberg/template-typescript-node-package/blob/v1.28.41/.eslintrc.cjs

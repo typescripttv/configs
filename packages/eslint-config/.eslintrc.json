@@ -13,7 +13,7 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "prettier", "sort-keys-fix", "unused-imports"],
+  "plugins": ["@typescript-eslint", "prettier", "sort-keys-fix", "unused-imports", "import"],
   "rules": {
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
@@ -28,7 +28,7 @@
       }
     ],
     "@typescript-eslint/no-import-type-side-effects": "error",
-    "@typescript-eslint/no-namespace": "off",
+    "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-redeclare": ["error"],
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-unsafe-argument": "error",
@@ -39,6 +39,7 @@
     "@typescript-eslint/typedef": "off",
     "curly": "error",
     "dot-notation": "off",
+    "import/no-commonjs": ["error"],
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
