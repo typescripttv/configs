@@ -1,16 +1,12 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [2.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@2.0.0...@tstv/tsconfig-common@2.1.0) (2023-08-02)
 
-
 ### Features
 
-* Prevent accessing new Array(15)[0] ([d9a6a41](https://github.com/typescripttv/tsconfigs/commit/d9a6a4105bad13355d3c89a5e278c08b6a0445a8))
-
-
+- Prevent accessing new Array(15)[0] ([d9a6a41](https://github.com/typescripttv/tsconfigs/commit/d9a6a4105bad13355d3c89a5e278c08b6a0445a8))
 
 ## [2.0.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@0.3.0...@tstv/tsconfig-common@2.0.0) (2023-03-18)
 
