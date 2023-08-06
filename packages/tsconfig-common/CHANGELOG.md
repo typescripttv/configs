@@ -1,6 +1,16 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [3.0.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.0.0...@tstv/tsconfig-common@3.0.1) (2023-08-06)
+
+
+### Bug Fixes
+
+* Create clean working tree ([0e860a5](https://github.com/typescripttv/tsconfigs/commit/0e860a505d4527c444ed7fbaad7e0a6c2e817867))
+
+
 
 ## [3.0.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@2.1.0...@tstv/tsconfig-common@3.0.0) (2023-08-05)
 
