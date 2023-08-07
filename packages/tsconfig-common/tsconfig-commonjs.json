@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -9,10 +8,11 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "lib": [
-      "es2022"
+      "dom",
+      "es2017"
     ],
-    "module": "es2022",
-    "moduleResolution": "node16",
+    "module": "commonjs",
+    "moduleResolution": "node",
     "newLine": "lf",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
@@ -20,16 +20,15 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": true,
+    "outDir": "dist",
+    "removeComments": false,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
+    "rootDir": "src",
     "sourceMap": true,
     "strict": true,
-    "target": "es2022"
+    "target": "es2017"
   },
-  "display": "Common",
   "exclude": [
-    "coverage",
     "dist",
     "node_modules"
   ]

@@ -1,5 +1,10 @@
 {
   "description": "Great TypeScript config for common projects.",
+  "files": [
+    "tsconfig-commonjs.json",
+    "tsconfig-react.json",
+    "tsconfig.json"
+  ],
   "keywords": [
     "tsconfig",
     "typescripttv",
