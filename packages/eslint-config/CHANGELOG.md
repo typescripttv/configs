@@ -1,16 +1,12 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [3.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.0.1...@tstv/eslint-config@3.1.0) (2023-08-07)
 
-
 ### Features
 
-* Enable "skipLibCheck" ([41d5d01](https://github.com/typescripttv/tsconfigs/commit/41d5d01243dbc3e2570f520f8d2818d64e8f2560))
-
-
+- Enable "skipLibCheck" ([41d5d01](https://github.com/typescripttv/tsconfigs/commit/41d5d01243dbc3e2570f520f8d2818d64e8f2560))
 
 ## [3.0.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.0.0...@tstv/eslint-config@3.0.1) (2023-08-06)
 

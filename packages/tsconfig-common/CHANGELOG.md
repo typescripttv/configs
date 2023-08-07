@@ -1,17 +1,13 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [3.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.0.1...@tstv/tsconfig-common@3.1.0) (2023-08-07)
 
-
 ### Features
 
-* Enable "skipLibCheck" ([f55e8e3](https://github.com/typescripttv/tsconfigs/commit/f55e8e3c645f3ebe87bc113e8969c675e474af5e))
-* Enable "skipLibCheck" ([41d5d01](https://github.com/typescripttv/tsconfigs/commit/41d5d01243dbc3e2570f520f8d2818d64e8f2560))
-
-
+- Enable "skipLibCheck" ([f55e8e3](https://github.com/typescripttv/tsconfigs/commit/f55e8e3c645f3ebe87bc113e8969c675e474af5e))
+- Enable "skipLibCheck" ([41d5d01](https://github.com/typescripttv/tsconfigs/commit/41d5d01243dbc3e2570f520f8d2818d64e8f2560))
 
 ## [3.0.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.0.0...@tstv/tsconfig-common@3.0.1) (2023-08-06)
 
