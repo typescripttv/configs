@@ -1,15 +1,10 @@
 # Change Log
 
-All notable changes to this project will be documented in this file.
-See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
 ## [3.1.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.1.0...@tstv/tsconfig-common@3.1.1) (2023-08-07)
 
 **Note:** Version bump only for package @tstv/tsconfig-common
-
-
-
-
 
 ## [3.1.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.0.1...@tstv/tsconfig-common@3.1.0) (2023-08-07)
 
