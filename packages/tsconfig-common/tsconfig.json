@@ -8,9 +8,7 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": [
-      "es2022"
-    ],
+    "lib": ["es2022"],
     "module": "es2022",
     "moduleResolution": "node16",
     "newLine": "lf",
@@ -28,9 +26,5 @@
     "target": "es2022"
   },
   "display": "Common",
-  "exclude": [
-    "coverage",
-    "dist",
-    "node_modules"
-  ]
+  "exclude": ["coverage", "dist", "node_modules"]
 }
