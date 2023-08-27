@@ -1,6 +1,16 @@
 # Change Log
 
-All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [3.2.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.1.1...@tstv/tsconfig-common@3.2.0) (2023-08-27)
+
+
+### Features
+
+* **tsconfig-common:** Enable import assertions ([49800d1](https://github.com/typescripttv/tsconfigs/commit/49800d17e7b6b815e7c182000b6fa4b313bfa0f7))
+
+
 
 ## [3.1.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.1.0...@tstv/tsconfig-common@3.1.1) (2023-08-07)
 
