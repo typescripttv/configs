@@ -8,7 +8,7 @@
     "ts-node": "10.9.1",
     "typescript": "5.1.6"
   },
-  "name": "@tstv/tsconfigs",
+  "name": "@tstv/configs",
   "private": true,
   "scripts": {
     "boot": "lerna bootstrap --reject-cycles",
