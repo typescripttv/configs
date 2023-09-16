@@ -29,5 +29,5 @@
     "test:types": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig-react.json --noEmit"
   },
   "type": "module",
-  "version": "3.2.1"
+  "version": "3.3.0"
 }
