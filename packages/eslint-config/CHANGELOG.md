@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.6](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.1.5...@tstv/eslint-config@3.1.6) (2023-11-20)
+
+**Note:** Version bump only for package @tstv/eslint-config
+
 ## [3.1.5](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.1.4...@tstv/eslint-config@3.1.5) (2023-09-20)
 
 **Note:** Version bump only for package @tstv/eslint-config
