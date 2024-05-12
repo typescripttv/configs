@@ -11,7 +11,6 @@
     "lib": ["es2023"],
     "module": "nodenext",
     "moduleResolution": "node16",
-    "newLine": "lf",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
