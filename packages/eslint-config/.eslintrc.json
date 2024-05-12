@@ -46,6 +46,7 @@
         "prefer-inline": true
       }
     ],
+    "max-depth": ["warn", 4],
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
