@@ -67,10 +67,10 @@
   resolved "https://registry.npmjs.org/@eslint/js/-/js-8.54.0.tgz#4fab9a2ff7860082c304f750e94acd644cf984cf"
   integrity sha512-ut5V+D+fOoWPgGGNj83GGjnntO39xDy6DWxO0wb7Jp3DcMX0TfIqdzHF85VTQkerdyGmuuMD9AKAo5KiNlf/AQ==
 
-"@evilmartians/lefthook@1.5.2":
-  version "1.5.2"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.5.2.tgz#9a10711368f6386be7e633ad70bf2bca27e5a022"
-  integrity sha512-CI2TYP0KFGxd3iXDj/4JcFxN+aMWxC5raRRQjJzXATPok5IVC41+SAG1O05Ec1AQJGN4b6iU1bxqtopbsKgWpg==
+"@evilmartians/lefthook@1.6.10":
+  version "1.6.10"
+  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.6.10.tgz#f936ff5b74a928ab8c263d30cff50013d41a6da9"
+  integrity sha512-4qhV1QAuROrxUAifXzhNZAcHOiPPLJnBl+XwSHRB/PdkoFbEa5bh4d5drO5pLjknKy7XXAXOTK/49Ew3ipuo7w==
 
 "@humanwhocodes/config-array@^0.11.13":
   version "0.11.13"
