@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@evilmartians/lefthook": "1.5.2",
+    "@evilmartians/lefthook": "1.6.10",
     "@types/node": "18.15.11",
     "conventional-changelog-conventionalcommits": "6.1.0",
     "lerna": "7.4.2",
