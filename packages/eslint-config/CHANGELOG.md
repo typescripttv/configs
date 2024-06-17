@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.2](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.2.1...@tstv/eslint-config@3.2.2) (2024-06-17)
+
+### Bug Fixes
+
+- **eslint-config:** Remove "eslint-plugin-import" ([fcf2cc9](https://github.com/typescripttv/tsconfigs/commit/fcf2cc9020d178f2704d5f951979219ad4c5f444))
+- **eslint-config:** Remove "eslint-plugin-import" ([0ff2950](https://github.com/typescripttv/tsconfigs/commit/0ff2950b85a1d8f8ca81bdb259b88719f5a9e82e))
+
 ## [3.2.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.2.0...@tstv/eslint-config@3.2.1) (2024-06-17)
 
 ### Bug Fixes
