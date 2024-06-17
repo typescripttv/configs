@@ -3,7 +3,7 @@
     "browser": true,
     "node": true
   },
-  "extends": ["prettier"],
+  "extends": ["prettier", "plugin:import/typescript"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -46,6 +46,10 @@
         "prefer-inline": true
       }
     ],
+    "import/resolver": {
+      "node": true,
+      "typescript": true
+    },
     "max-depth": ["warn", 4],
     "no-cond-assign": "error",
     "no-console": "off",
