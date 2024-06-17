@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.5.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.4.1...@tstv/tsconfig-common@3.5.0) (2024-06-17)
+
+### Features
+
+- **tsconfig-common:** Remove deprecated "newLine" flag ([#3](https://github.com/typescripttv/tsconfigs/issues/3)) ([924440b](https://github.com/typescripttv/tsconfigs/commit/924440bc6b4917c91a016b70fca8e016803d6d06))
+
 ## [3.4.1](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.4.0...@tstv/tsconfig-common@3.4.1) (2023-12-09)
 
 **Note:** Version bump only for package @tstv/tsconfig-common

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.1.6...@tstv/eslint-config@3.2.0) (2024-06-17)
+
+### Features
+
+- **eslint-config:** Add max-depth ([#4](https://github.com/typescripttv/tsconfigs/issues/4)) ([dd2e04c](https://github.com/typescripttv/tsconfigs/commit/dd2e04c5a7bf1fda666b3dc2286cf359da3bf5d7))
+- **eslint-config:** Add TypeScript resolver for "eslint-plugin-import" ([76cc1fc](https://github.com/typescripttv/tsconfigs/commit/76cc1fc5d2d5b3817f79e13d02e3759634d3eb67))
+
 ## [3.1.6](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.1.5...@tstv/eslint-config@3.1.6) (2023-11-20)
 
 **Note:** Version bump only for package @tstv/eslint-config
