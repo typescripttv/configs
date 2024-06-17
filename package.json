@@ -19,6 +19,7 @@
     "release": "yarn install && yarn dist && lerna publish && yarn clean",
     "test": "lerna run --no-sort --concurrency 8 test"
   },
+  "type": "module",
   "workspaces": {
     "packages": [
       "packages/*"
