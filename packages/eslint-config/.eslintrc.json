@@ -4,7 +4,9 @@
     "browser": true,
     "node": true
   },
-  "extends": ["prettier", "plugin:import/typescript"],
+  "extends": [
+    "prettier"
+  ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
@@ -14,14 +16,20 @@
     "project": "./tsconfig.json",
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "prettier", "sort-keys-fix", "import"],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "sort-keys-fix"
+  ],
   "rules": {
     "@typescript-eslint/array-type": "error",
     "@typescript-eslint/consistent-type-assertions": "error",
     "@typescript-eslint/consistent-type-imports": "error",
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/member-ordering": "off",
-    "@typescript-eslint/no-dupe-class-members": ["error"],
+    "@typescript-eslint/no-dupe-class-members": [
+      "error"
+    ],
     "@typescript-eslint/no-floating-promises": [
       "error",
       {
@@ -36,18 +44,17 @@
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/prefer-for-of": "off",
     "@typescript-eslint/prefer-readonly": "error",
-    "@typescript-eslint/return-await": ["error", "in-try-catch"],
+    "@typescript-eslint/return-await": [
+      "error",
+      "in-try-catch"
+    ],
     "@typescript-eslint/typedef": "off",
     "curly": "error",
     "dot-notation": "off",
-    "import/no-commonjs": ["error"],
-    "import/no-duplicates": [
-      "error",
-      {
-        "prefer-inline": true
-      }
+    "max-depth": [
+      "warn",
+      4
     ],
-    "max-depth": ["warn", 4],
     "no-cond-assign": "error",
     "no-console": "off",
     "no-const-assign": "error",
@@ -68,12 +75,18 @@
     "no-unused-vars": "off",
     "no-useless-return": "error",
     "no-var": "error",
-    "one-var": ["error", "never"],
+    "one-var": [
+      "error",
+      "never"
+    ],
     "padding-line-between-statements": [
       "error",
       {
         "blankLine": "always",
-        "next": ["export", "expression"],
+        "next": [
+          "export",
+          "expression"
+        ],
         "prev": "import"
       }
     ],
@@ -92,12 +105,9 @@
     ],
     "sort-vars": "error",
     "space-in-parens": "error",
-    "strict": ["error", "global"]
-  },
-  "settings": {
-    "import/resolver": {
-      "node": true,
-      "typescript": true
-    }
+    "strict": [
+      "error",
+      "global"
+    ]
   }
 }
