@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.6.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.5.0...@tstv/tsconfig-common@3.6.0) (2024-06-27)
+
+### Features
+
+- **tsconfig-common:** Add Template Variable for Configuration Files ([82918a4](https://github.com/typescripttv/tsconfigs/commit/82918a4eb130dcce62065ce65a5b36b11a9415bb))
+- **tsconfig-common:** Add Template Variable for Configuration Files ([48d5600](https://github.com/typescripttv/tsconfigs/commit/48d56005efd244212734d787e431859fdcd2ea03))
+
 ## [3.5.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.4.1...@tstv/tsconfig-common@3.5.0) (2024-06-17)
 
 ### Features
