@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.2.3](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.2.2...@tstv/eslint-config@3.2.3) (2024-12-03)
+
+### Bug Fixes
+
+- Allow ESLint v8 and above ([fa34742](https://github.com/typescripttv/tsconfigs/commit/fa347428afcba515f029392b8ad0a3e01b8e6891))
+
 ## [3.2.2](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.2.1...@tstv/eslint-config@3.2.2) (2024-06-17)
 
 ### Bug Fixes
