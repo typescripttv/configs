@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.7.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.6.0...@tstv/tsconfig-common@3.7.0) (2025-01-08)
+
+### Features
+
+- Make sure that an overridden method exists in the base class ([dc103e6](https://github.com/typescripttv/tsconfigs/commit/dc103e6a62466d96623f834ce1a4ba0ebcdba225))
+
 ## [3.6.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.5.0...@tstv/tsconfig-common@3.6.0) (2024-06-27)
 
 ### Features
