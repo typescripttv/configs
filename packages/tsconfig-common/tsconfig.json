@@ -1,5 +1,4 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
@@ -9,9 +8,10 @@
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2023"],
-    "module": "nodenext",
-    "moduleResolution": "node18",
+    "lib": [
+      "es2023"
+    ],
+    "module": "Node18",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
@@ -27,5 +27,10 @@
     "target": "es2022"
   },
   "display": "Common",
-  "exclude": ["${configDir}/coverage", "${configDir}/dist", "${configDir}/docs", "${configDir}/node_modules"]
+  "exclude": [
+    "${configDir}/coverage",
+    "${configDir}/dist",
+    "${configDir}/docs",
+    "${configDir}/node_modules"
+  ]
 }

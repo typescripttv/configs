@@ -1,6 +1,6 @@
 // Testing "Import Assertions"
 // @see https://typescript.tv/new-features/what-are-ecmascript-modules/
-import user from './user.json' assert {type: 'json'};
+import user from './user.json' with {type: 'json'};
 
 export function myFunction(a: number, b: number) {
   console.log(user.age);
