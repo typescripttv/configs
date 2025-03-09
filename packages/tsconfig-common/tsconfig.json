@@ -5,12 +5,15 @@
     "allowSyntheticDefaultImports": true,
     "declaration": true,
     "emitDecoratorMetadata": true,
+    "erasableSyntaxOnly": true,
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
-    "lib": ["es2023"],
+    "lib": [
+      "es2023"
+    ],
     "module": "nodenext",
-    "moduleResolution": "node16",
+    "moduleResolution": "node18",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitOverride": true,
@@ -26,5 +29,10 @@
     "target": "es2022"
   },
   "display": "Common",
-  "exclude": ["${configDir}/coverage", "${configDir}/dist", "${configDir}/docs", "${configDir}/node_modules"]
+  "exclude": [
+    "${configDir}/coverage",
+    "${configDir}/dist",
+    "${configDir}/docs",
+    "${configDir}/node_modules"
+  ]
 }
