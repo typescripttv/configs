@@ -3,7 +3,7 @@
     "@typescript-eslint/eslint-plugin": "8.25.0",
     "@typescript-eslint/parser": "8.25.0",
     "eslint-config-prettier": "10.0.2",
-    "eslint-plugin-prettier": "5.2.3",
+    "eslint-plugin-prettier": "5.2.5",
     "eslint-plugin-sort-keys-fix": "1.1.2"
   },
   "description": "Shareable ESLint Config",
