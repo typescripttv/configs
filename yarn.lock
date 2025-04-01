@@ -78,9 +78,9 @@
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
 "@evilmartians/lefthook@^1.11.3":
-  version "1.11.3"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.11.3.tgz#95c654b1aeac812efb34cda3d34f38dc3c9c3b25"
-  integrity sha512-ic3gCgCnm7XQCxGLsnLXU+33J86iFuC5r4JYSWrMXo0rTjGT6EqKKpSDuA0r/1F14VZmdgmvRUTXTBOvXA2UXA==
+  version "1.11.6"
+  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-1.11.6.tgz#7302c095e738f0d4eb1731fea9ee94bb91138247"
+  integrity sha512-8KwNp1gkVeNuORjYT990AomxV9QTTangWvPcuNWz7okpdC9LdBw79We/218pLqddpUXmg/XCFOysc4vE6O+2fg==
 
 "@humanwhocodes/config-array@^0.13.0":
   version "0.13.0"
