@@ -1,27 +1,27 @@
 {
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.29.0",
-    "@typescript-eslint/parser": "8.25.0",
-    "eslint-config-prettier": "10.0.2",
-    "eslint-plugin-prettier": "5.2.5",
+    "@typescript-eslint/eslint-plugin": "8.31.0",
+    "@typescript-eslint/parser": "8.31.0",
+    "eslint-config-prettier": "10.1.2",
+    "eslint-plugin-prettier": "5.2.6",
     "eslint-plugin-sort-keys-fix": "1.1.2"
   },
   "description": "Shareable ESLint Config",
   "devDependencies": {
-    "eslint": "8.57.1"
+    "eslint": "9.25.1"
   },
   "files": [
-    ".eslintrc.json"
+    "eslint.config.mjs"
   ],
   "keywords": [
     "eslint",
     "config"
   ],
   "license": "MIT",
-  "main": ".eslintrc.json",
+  "main": "eslint.config.mjs",
   "name": "@tstv/eslint-config",
   "peerDependencies": {
-    "eslint": ">=8.0.0"
+    "eslint": ">=9.0.0"
   },
   "publishConfig": {
     "access": "public"
@@ -36,7 +36,7 @@
     "clean": "exit 0",
     "dist": "yarn clean && yarn build",
     "fix": "npm run test -- --fix",
-    "test": "eslint -c ./.eslintrc.json --parser-options project:../tsconfig-common/tsconfig.json ../tsconfig-common/index.ts"
+    "test": "eslint -c ./eslint.config.mjs --parser-options project:../tsconfig-common/tsconfig.json typescript.ts"
   },
   "version": "3.2.4"
 }

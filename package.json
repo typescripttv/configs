@@ -1,12 +1,12 @@
 {
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.11.3",
-    "@types/node": "^22.13.10",
+    "@evilmartians/lefthook": "^1.11.11",
+    "@types/node": "^22.15.2",
     "conventional-changelog-conventionalcommits": "^8.0.0",
-    "lerna": "^8.2.1",
+    "lerna": "^8.2.2",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.3"
   },
   "name": "@tstv/configs",
   "private": true,
