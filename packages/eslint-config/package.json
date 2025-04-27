@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "8.31.0",
-    "@typescript-eslint/parser": "8.31.0",
-    "eslint-config-prettier": "10.1.2",
-    "eslint-plugin-prettier": "5.2.6",
-    "eslint-plugin-sort-keys-fix": "1.1.2"
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-sort-keys-fix": "^1.1.2"
   },
   "description": "Shareable ESLint Config",
   "devDependencies": {
@@ -36,7 +36,7 @@
     "clean": "exit 0",
     "dist": "yarn clean && yarn build",
     "fix": "npm run test -- --fix",
-    "test": "eslint -c ./eslint.config.mjs --parser-options project:../tsconfig-common/tsconfig.json typescript.ts"
+    "test": "eslint -c ./eslint.config.mjs src/typescript.ts"
   },
   "version": "3.2.4"
 }

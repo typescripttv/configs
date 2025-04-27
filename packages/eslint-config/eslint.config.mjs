@@ -20,7 +20,7 @@ const compat = new FlatCompat({
 export default defineConfig([
   {
     extends: compat.extends('prettier'),
-
+    files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs}'],
     plugins: {
       '@typescript-eslint': typescriptEslint,
       prettier,
