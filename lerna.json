@@ -1,17 +1,21 @@
 {
   "changelogPreset": {
-    "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
+    "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
+    "name": "conventionalcommits"
   },
   "command": {
     "publish": {
       "allowBranch": "main",
+      "conventionalCommits": true,
       "message": "[skip ci] chore: Publish"
     }
   },
   "exact": true,
   "loglevel": "verbose",
   "npmClient": "yarn",
-  "npmClientArgs": ["--exact"],
+  "npmClientArgs": [
+    "--exact"
+  ],
   "registry": "https://registry.npmjs.org/",
   "version": "independent",
   "yes": true
