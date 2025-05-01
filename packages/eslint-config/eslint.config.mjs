@@ -20,7 +20,8 @@ const compat = new FlatCompat({
 export default defineConfig([
   {
     extends: compat.extends('prettier'),
-    files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs}'],
+    // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
+    name: '@tstv/eslint-config',
     plugins: {
       '@typescript-eslint': typescriptEslint,
       prettier,

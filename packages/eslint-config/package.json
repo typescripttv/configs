@@ -21,7 +21,7 @@
   "main": "eslint.config.mjs",
   "name": "@tstv/eslint-config",
   "peerDependencies": {
-    "eslint": ">=9.0.0"
+    "eslint": ">=9"
   },
   "publishConfig": {
     "access": "public"

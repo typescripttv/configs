@@ -4,15 +4,26 @@ This is a [shareable config](https://eslint.org/docs/latest/developer-guide/shar
 
 ## Usage
 
-Edit your `.eslintrc.json` file and add the following:
+Edit your `eslint.config.mjs` file and add the following:
 
-```json5
-{
-  // ...
-  extends: '@tstv/eslint-config',
-}
+```js
+import {defineConfig} from 'eslint/config';
+import eslintConfig from '@tstv/eslint-config';
+
+export default defineConfig({
+  files: ['**/*.{ts,tsx,mts,cts,js,jsx,mjs,cjs}'],
+  ignores: [
+    '**/.dependency-cruiser.cjs',
+    '**/coverage/**',
+    '**/dist/**',
+    '**/docs/**',
+    '**/eslint.config.mjs',
+    '**/vitest.config.ts',
+  ],
+  extends: [eslintConfig],
+});
 ```
 
-## Alternatives
+## Documentation
 
-- https://github.com/JoshuaKGoldberg/template-typescript-node-package/blob/v1.28.41/.eslintrc.cjs
+- https://eslint.org/docs/latest/use/configure/configuration-files#using-a-shareable-configuration-package
