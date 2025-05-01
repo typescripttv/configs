@@ -26,4 +26,13 @@ export default defineConfig({
 
 ## Documentation
 
+ESLint migration tool:
+
+```bash
+npx @eslint/migrate-config .eslintrc.json
+```
+
+Read more:
+
+- https://github.com/JsDaddy/eslint-8-to-9/blob/main/README.md
 - https://eslint.org/docs/latest/use/configure/configuration-files#using-a-shareable-configuration-package
