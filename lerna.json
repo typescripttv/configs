@@ -13,9 +13,7 @@
   "exact": true,
   "loglevel": "verbose",
   "npmClient": "yarn",
-  "npmClientArgs": [
-    "--exact"
-  ],
+  "npmClientArgs": ["--exact"],
   "registry": "https://registry.npmjs.org/",
   "version": "independent",
   "yes": true
