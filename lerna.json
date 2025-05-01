@@ -1,7 +1,6 @@
 {
   "changelogPreset": {
     "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}",
-    "name": "conventionalcommits"
   },
   "command": {
     "publish": {
@@ -13,7 +12,9 @@
   "exact": true,
   "loglevel": "verbose",
   "npmClient": "yarn",
-  "npmClientArgs": ["--exact"],
+  "npmClientArgs": [
+    "--exact"
+  ],
   "registry": "https://registry.npmjs.org/",
   "version": "independent",
   "yes": true
