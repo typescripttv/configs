@@ -8,7 +8,7 @@
   },
   "description": "Shareable ESLint Config",
   "devDependencies": {
-    "eslint": "9.28.0"
+    "eslint": "9.30.0"
   },
   "files": [
     "eslint.config.mjs"
