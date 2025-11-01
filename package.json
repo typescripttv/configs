@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@evilmartians/lefthook": "^1.11.11",
+    "@evilmartians/lefthook": "^2.0.2",
     "@types/node": "^24.0.8",
     "lerna": "^9.0.0",
     "prettier": "^3.5.3",
