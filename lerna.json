@@ -1,5 +1,6 @@
 {
-  "changelogPreset": {
+  "changelogPreset": "conventionalcommits",
+  "changelogPresetConfig": {
     "issueUrlFormat": "{{host}}/{{owner}}/{{repository}}/issues/{{id}}"
   },
   "command": {
