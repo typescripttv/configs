@@ -1,8 +1,8 @@
 {
   "devDependencies": {
-    "@evilmartians/lefthook": "^2.0.2",
-    "@types/node": "^24.0.8",
-    "lerna": "^9.0.0",
+    "@evilmartians/lefthook": "^2.0.4",
+    "@types/node": "^24.10.1",
+    "lerna": "^9.0.1",
     "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
