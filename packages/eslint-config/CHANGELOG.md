@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>4.1.1 (2025-11-26)</small>
+
+- chore: fix formatting ([e81c735](https://github.com/typescripttv/tsconfigs/commit/e81c735))
+- chore: Upgrade dependencies ([eb3cf4f](https://github.com/typescripttv/tsconfigs/commit/eb3cf4f))
+- chore(deps-dev): bump eslint from 9.25.1 to 9.28.0 (#103) ([9ebc5fc](https://github.com/typescripttv/tsconfigs/commit/9ebc5fc)), closes [#103](https://github.com/typescripttv/tsconfigs/issues/103)
+- chore(deps-dev): bump eslint from 9.28.0 to 9.30.0 (#108) ([55c6be5](https://github.com/typescripttv/tsconfigs/commit/55c6be5)), closes [#108](https://github.com/typescripttv/tsconfigs/issues/108)
+- chore(deps-dev): bump eslint from 9.30.0 to 9.32.0 (#119) ([2d38b47](https://github.com/typescripttv/tsconfigs/commit/2d38b47)), closes [#119](https://github.com/typescripttv/tsconfigs/issues/119)
+- chore(deps-dev): bump eslint from 9.32.0 to 9.34.0 (#122) ([276284b](https://github.com/typescripttv/tsconfigs/commit/276284b)), closes [#122](https://github.com/typescripttv/tsconfigs/issues/122)
+- chore(deps-dev): bump eslint from 9.34.0 to 9.36.0 (#132) ([5317ed3](https://github.com/typescripttv/tsconfigs/commit/5317ed3)), closes [#132](https://github.com/typescripttv/tsconfigs/issues/132)
+- chore(deps-dev): bump eslint from 9.36.0 to 9.39.0 (#135) ([6632f6f](https://github.com/typescripttv/tsconfigs/commit/6632f6f)), closes [#135](https://github.com/typescripttv/tsconfigs/issues/135)
+- feat: Add config name ([1da095d](https://github.com/typescripttv/tsconfigs/commit/1da095d))
+- feat(eslint-config): Adjust ESLint's TS config for monorepos ([f6faaa7](https://github.com/typescripttv/tsconfigs/commit/f6faaa7))
+- docs: Add help ([7a18a8d](https://github.com/typescripttv/tsconfigs/commit/7a18a8d))
+
 ## [3.2.4](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@3.2.3...@tstv/eslint-config@3.2.4) (2025-01-08)
 
 **Note:** Version bump only for package @tstv/eslint-config
