@@ -1560,6 +1560,13 @@ conventional-changelog-angular@7.0.0:
   dependencies:
     compare-func "^2.0.0"
 
+conventional-changelog-conventionalcommits@^9.1.0:
+  version "9.1.0"
+  resolved "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-9.1.0.tgz#34e5f35c80c1375a5464df2a8067a1facbb2d858"
+  integrity sha512-MnbEysR8wWa8dAEvbj5xcBgJKQlX/m0lhS8DsyAAWDHdfs2faDJxTgzRYlRYpXSe7UiKrIIlB4TrBKU9q9DgkA==
+  dependencies:
+    compare-func "^2.0.0"
+
 conventional-changelog-core@5.0.1:
   version "5.0.1"
   resolved "https://registry.npmjs.org/conventional-changelog-core/-/conventional-changelog-core-5.0.1.tgz#3c331b155d5b9850f47b4760aeddfc983a92ad49"
