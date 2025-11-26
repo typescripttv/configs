@@ -42,8 +42,8 @@ export default defineConfig([
         ecmaFeatures: {
           jsx: true,
         },
-
-        project: './tsconfig.json',
+        // https://typescript-eslint.io/blog/parser-options-project-true/
+        project: true,
       },
     },
 
