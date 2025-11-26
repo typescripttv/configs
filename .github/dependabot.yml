@@ -21,8 +21,3 @@ updates:
     commit-message:
       prefix: 'chore'
       include: 'scope'
-    ignore:
-      # https://github.com/lerna/lerna/issues/4021
-      - dependency-name: 'conventional-changelog-conventionalcommits'
-        versions:
-          - '>= 8'
