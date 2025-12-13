@@ -66,6 +66,7 @@ export default defineConfig([
       '@typescript-eslint/no-namespace': 'error',
       '@typescript-eslint/no-redeclare': 'error',
       '@typescript-eslint/no-this-alias': 'error',
+      '@typescript-eslint/no-unnecessary-type-assertion': 'error',
       '@typescript-eslint/no-unsafe-argument': 'error',
       '@typescript-eslint/no-unused-vars': 'off',
       '@typescript-eslint/prefer-for-of': 'off',
