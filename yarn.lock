@@ -114,9 +114,9 @@
     levn "^0.4.1"
 
 "@evilmartians/lefthook@^2.0.4":
-  version "2.0.13"
-  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-2.0.13.tgz#f28d907f4eeafa9d52c83c24b673d2480a3a806f"
-  integrity sha512-Kpsd8NNQw4PrxP41OqwvM0oAP8y70Fslir7uU9fUBdl6JcGGpKlFNlFj87/5OJO95VHxKm8rFvg5mbkv4cCTFw==
+  version "2.1.1"
+  resolved "https://registry.npmjs.org/@evilmartians/lefthook/-/lefthook-2.1.1.tgz#1f49c75fa27529cc17bd5872f665edbbf2ae70bf"
+  integrity sha512-+nyEG9SCmI8wRhMbMr1GUFWfbIGeY/vlzenrMZgYWRVhEKOn/pQt4nQSQlQmaoxo4uOY13Vl53SaijFoE58bYg==
 
 "@humanfs/core@^0.19.1":
   version "0.19.1"
