@@ -69,7 +69,7 @@ export default defineConfig([
       '@typescript-eslint/no-unnecessary-type-assertion': 'error',
       '@typescript-eslint/no-unsafe-argument': 'error',
       '@typescript-eslint/no-unused-vars': 'off',
-      '@typescript-eslint/prefer-as-const": "error",
+      '@typescript-eslint/prefer-as-const': 'error',
       '@typescript-eslint/prefer-for-of': 'off',
       '@typescript-eslint/prefer-readonly': 'error',
       '@typescript-eslint/return-await': ['error', 'in-try-catch'],
