@@ -17,13 +17,13 @@
     "noUncheckedIndexedAccess": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "outDir": "dist",
+    "outDir": "${configDir}/dist",
     "removeComments": false,
     "resolveJsonModule": true,
-    "rootDir": "src",
+    "rootDir": "${configDir}/src",
     "sourceMap": true,
     "strict": true,
     "target": "es2017"
   },
-  "exclude": ["dist", "node_modules"]
+  "exclude": ["${configDir}/dist", "${configDir}/node_modules"]
 }
