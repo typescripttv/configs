@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>3.7.2 (2026-03-01)</small>
+
+- feat(tsconfig-common): Use ${configDir} in tsconfig-commonjs.json (#160) ([f180876](https://github.com/typescripttv/tsconfigs/commit/f180876)), closes [#160](https://github.com/typescripttv/tsconfigs/issues/160) [#141](https://github.com/typescripttv/tsconfigs/issues/141)
+
 ## [3.7.0](https://github.com/typescripttv/tsconfigs/compare/@tstv/tsconfig-common@3.6.0...@tstv/tsconfig-common@3.7.0) (2025-01-08)
 
 ### Features

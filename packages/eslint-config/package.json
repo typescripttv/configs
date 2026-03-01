@@ -41,5 +41,5 @@
     "fix": "npm run test -- --fix",
     "test": "eslint -c ./eslint.config.mjs src/typescript.ts"
   },
-  "version": "4.1.1"
+  "version": "4.1.2"
 }

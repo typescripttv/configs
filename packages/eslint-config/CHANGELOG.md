@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## <small>4.1.2 (2026-03-01)</small>
+
+- chore(deps-dev): bump eslint from 9.39.1 to 9.39.2 (#143) ([6d5a564](https://github.com/typescripttv/tsconfigs/commit/6d5a564)), closes [#143](https://github.com/typescripttv/tsconfigs/issues/143)
+- chore(deps): update all dependencies ([b370f8a](https://github.com/typescripttv/tsconfigs/commit/b370f8a))
+- fix(eslint-config): Add globals as direct dependency for ESLint v10 (#159) ([e37adb0](https://github.com/typescripttv/tsconfigs/commit/e37adb0)), closes [#159](https://github.com/typescripttv/tsconfigs/issues/159)
+- Add prefer-as-const rule to ESLint config ([48356aa](https://github.com/typescripttv/tsconfigs/commit/48356aa))
+- feat(eslint-config): Prevent unnecessary type assertions ([092a345](https://github.com/typescripttv/tsconfigs/commit/092a345))
+
 ## <small>4.1.1 (2025-11-26)</small>
 
 - chore: fix formatting ([e81c735](https://github.com/typescripttv/tsconfigs/commit/e81c735))
