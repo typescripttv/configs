@@ -13,33 +13,22 @@ import {FlatCompat} from '@eslint/eslintrc';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
+  allConfig: js.configs.all,
   baseDirectory: __dirname,
   recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
 });
 
 export default defineConfig([
   {
     extends: compat.extends('prettier'),
-    // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
-    name: '@tstv/eslint-config',
-    plugins: {
-      '@stylistic': stylistic,
-      '@typescript-eslint': typescriptEslint,
-      perfectionist,
-      prettier,
-    },
-
     languageOptions: {
+      ecmaVersion: 8,
+
       globals: {
         ...globals.browser,
         ...globals.node,
       },
-
       parser: tsParser,
-      ecmaVersion: 8,
-      sourceType: 'module',
-
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
@@ -47,6 +36,17 @@ export default defineConfig([
         // https://typescript-eslint.io/blog/parser-options-project-true/
         project: true,
       },
+
+      sourceType: 'module',
+    },
+    // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
+    name: '@tstv/eslint-config',
+
+    plugins: {
+      '@stylistic': stylistic,
+      '@typescript-eslint': typescriptEslint,
+      perfectionist,
+      prettier,
     },
 
     rules: {
