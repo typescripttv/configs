@@ -108,6 +108,9 @@ export default defineConfig([
         },
       ],
 
+      // We use a plugin instead of ESLint's core `sort-keys` rule because that rule is
+      // frozen and provides no autofix.
+      // https://eslint.org/docs/latest/rules/sort-keys#require-object-keys-to-be-sorted-sort-keys
       'perfectionist/sort-objects': [
         'warn',
         {
