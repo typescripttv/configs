@@ -108,9 +108,6 @@ export default defineConfig([
         },
       ],
 
-      // Replaces the abandoned eslint-plugin-sort-keys-fix (last published 2023, crashes
-      // under ESLint 10 because it calls the removed context.getSourceCode()). Mirrors the
-      // previous behavior: natural, case-sensitive, ascending object-key order, autofixable.
       'perfectionist/sort-objects': [
         'warn',
         {
