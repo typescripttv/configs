@@ -10,6 +10,12 @@
   },
   "name": "@tstv/configs",
   "private": true,
+  "resolutions": {
+    "axios": "^1.15.2",
+    "follow-redirects": "^1.16.0",
+    "handlebars": "^4.7.9",
+    "ip-address": "^10.1.1"
+  },
   "scripts": {
     "boot": "lerna bootstrap --reject-cycles",
     "clean": "lerna run clean --parallel",
