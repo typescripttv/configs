@@ -44,5 +44,5 @@
     "test:invalid": "! eslint -c ./lint.config.mjs --no-ignore test/invalid",
     "test:valid": "eslint -c ./lint.config.mjs ."
   },
-  "version": "4.1.2"
+  "version": "4.1.3"
 }

@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.3](https://github.com/typescripttv/tsconfigs/compare/@tstv/eslint-config@4.1.2...@tstv/eslint-config@4.1.3) (2026-05-22)
+
+### Bug Fixes
+
+- **eslint-config:** replace abandoned sort-keys-fix with perfectionist ([#178](https://github.com/typescripttv/tsconfigs/issues/178))
+
 ## <small>4.1.2 (2026-03-01)</small>
 
 - chore(deps-dev): bump eslint from 9.39.1 to 9.39.2 (#143) ([6d5a564](https://github.com/typescripttv/tsconfigs/commit/6d5a564)), closes [#143](https://github.com/typescripttv/tsconfigs/issues/143)
