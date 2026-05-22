@@ -1,4 +1,5 @@
 import {defineConfig} from 'eslint/config';
+import stylistic from '@stylistic/eslint-plugin';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import prettier from 'eslint-plugin-prettier';
 import perfectionist from 'eslint-plugin-perfectionist';
@@ -23,6 +24,7 @@ export default defineConfig([
     // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
     name: '@tstv/eslint-config',
     plugins: {
+      '@stylistic': stylistic,
       '@typescript-eslint': typescriptEslint,
       perfectionist,
       prettier,
@@ -48,6 +50,7 @@ export default defineConfig([
     },
 
     rules: {
+      '@stylistic/multiline-comment-style': ['error', 'starred-block'],
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-assertions': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
@@ -77,7 +80,6 @@ export default defineConfig([
       curly: 'error',
       'dot-notation': 'off',
       'max-depth': ['warn', 4],
-      'multiline-comment-style': ['error', 'starred-block'],
       'no-cond-assign': 'error',
       'no-console': 'off',
       'no-const-assign': 'error',
