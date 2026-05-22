@@ -1,8 +1,5 @@
 import {defineConfig} from 'eslint/config';
-import stylistic from '@stylistic/eslint-plugin';
-import perfectionist from 'eslint-plugin-perfectionist';
-import prettier from 'eslint-plugin-prettier';
-import prettierConfig from 'eslint-config-prettier';
+import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import eslintConfig from './eslint.config.mjs';
 
 /*
@@ -18,20 +15,11 @@ export default defineConfig([
   {
     /*
      * The flat-config files are not part of a TypeScript project, so the type-aware rules
-     * cannot run on them. Lint them for style only: comment style, key order, and formatting.
+     * cannot run on them. Inherit the shared config and switch off only the type-checked
+     * rules (and project-based parsing) so the style rules still apply without duplicating them.
      */
-    extends: [prettierConfig],
+    extends: [eslintConfig, typescriptEslint.configs['flat/disable-type-checked']],
     files: ['**/*.mjs'],
-    plugins: {
-      '@stylistic': stylistic,
-      perfectionist,
-      prettier,
-    },
-    rules: {
-      '@stylistic/multiline-comment-style': ['error', 'starred-block'],
-      'perfectionist/sort-objects': ['warn', {ignoreCase: false, order: 'asc', type: 'natural'}],
-      'prettier/prettier': 'error',
-    },
   },
   {
     /*
