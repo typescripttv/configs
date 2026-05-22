@@ -33,4 +33,12 @@ export default defineConfig([
       'prettier/prettier': 'error',
     },
   },
+  {
+    /*
+     * Intentionally-broken fixtures live under test/ and must be excluded from the normal
+     * lint run. The `test:invalid` script lints them explicitly (with --no-ignore) and
+     * asserts that linting fails, proving the rules actually reject violations.
+     */
+    ignores: ['test/**'],
+  },
 ]);
