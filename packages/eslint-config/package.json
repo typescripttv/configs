@@ -5,8 +5,8 @@
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-perfectionist": "^5.9.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "globals": "^17.4.0"
   },
   "description": "Shareable ESLint Config",

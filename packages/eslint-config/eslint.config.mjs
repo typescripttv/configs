@@ -1,7 +1,7 @@
 import {defineConfig} from 'eslint/config';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import prettier from 'eslint-plugin-prettier';
-import sortKeysFix from 'eslint-plugin-sort-keys-fix';
+import perfectionist from 'eslint-plugin-perfectionist';
 import globals from 'globals';
 import tsParser from '@typescript-eslint/parser';
 import path from 'node:path';
@@ -24,8 +24,8 @@ export default defineConfig([
     name: '@tstv/eslint-config',
     plugins: {
       '@typescript-eslint': typescriptEslint,
+      perfectionist,
       prettier,
-      'sort-keys-fix': sortKeysFix,
     },
 
     languageOptions: {
@@ -108,21 +108,23 @@ export default defineConfig([
         },
       ],
 
+      // Replaces the abandoned eslint-plugin-sort-keys-fix (last published 2023, crashes
+      // under ESLint 10 because it calls the removed context.getSourceCode()). Mirrors the
+      // previous behavior: natural, case-sensitive, ascending object-key order, autofixable.
+      'perfectionist/sort-objects': [
+        'warn',
+        {
+          ignoreCase: false,
+          order: 'asc',
+          type: 'natural',
+        },
+      ],
+
       'prefer-arrow-callback': 'error',
       'prefer-const': 'error',
       'prefer-promise-reject-errors': 'error',
       'prettier/prettier': 'error',
       'sort-imports': 'off',
-
-      'sort-keys-fix/sort-keys-fix': [
-        'warn',
-        'asc',
-        {
-          caseSensitive: true,
-          natural: true,
-        },
-      ],
-
       'sort-vars': 'error',
       'space-in-parens': 'error',
       strict: ['error', 'global'],
