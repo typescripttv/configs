@@ -2,11 +2,12 @@
   "dependencies": {
     "@eslint/eslintrc": "^3.3.4",
     "@eslint/js": "^10.0.1",
+    "@stylistic/eslint-plugin": "^5.10.0",
     "@typescript-eslint/eslint-plugin": "^8.56.1",
     "@typescript-eslint/parser": "^8.56.1",
     "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-perfectionist": "^5.9.0",
     "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-sort-keys-fix": "^1.1.2",
     "globals": "^17.4.0"
   },
   "description": "Shareable ESLint Config",
@@ -38,8 +39,10 @@
     "build": "exit 0",
     "clean": "exit 0",
     "dist": "yarn clean && yarn build",
-    "fix": "npm run test -- --fix",
-    "test": "eslint -c ./eslint.config.mjs src/typescript.ts"
+    "fix": "npm run test:valid -- --fix",
+    "test": "npm run test:valid && npm run test:invalid",
+    "test:invalid": "! eslint -c ./lint.config.mjs --no-ignore test/invalid",
+    "test:valid": "eslint -c ./lint.config.mjs ."
   },
   "version": "4.1.2"
 }

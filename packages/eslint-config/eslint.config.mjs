@@ -1,7 +1,8 @@
 import {defineConfig} from 'eslint/config';
+import stylistic from '@stylistic/eslint-plugin';
 import typescriptEslint from '@typescript-eslint/eslint-plugin';
 import prettier from 'eslint-plugin-prettier';
-import sortKeysFix from 'eslint-plugin-sort-keys-fix';
+import perfectionist from 'eslint-plugin-perfectionist';
 import globals from 'globals';
 import tsParser from '@typescript-eslint/parser';
 import path from 'node:path';
@@ -12,32 +13,22 @@ import {FlatCompat} from '@eslint/eslintrc';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
+  allConfig: js.configs.all,
   baseDirectory: __dirname,
   recommendedConfig: js.configs.recommended,
-  allConfig: js.configs.all,
 });
 
 export default defineConfig([
   {
     extends: compat.extends('prettier'),
-    // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
-    name: '@tstv/eslint-config',
-    plugins: {
-      '@typescript-eslint': typescriptEslint,
-      prettier,
-      'sort-keys-fix': sortKeysFix,
-    },
-
     languageOptions: {
+      ecmaVersion: 8,
+
       globals: {
         ...globals.browser,
         ...globals.node,
       },
-
       parser: tsParser,
-      ecmaVersion: 8,
-      sourceType: 'module',
-
       parserOptions: {
         ecmaFeatures: {
           jsx: true,
@@ -45,9 +36,21 @@ export default defineConfig([
         // https://typescript-eslint.io/blog/parser-options-project-true/
         project: true,
       },
+
+      sourceType: 'module',
+    },
+    // https://eslint.org/docs/latest/use/configure/configuration-files#configuration-naming-conventions
+    name: '@tstv/eslint-config',
+
+    plugins: {
+      '@stylistic': stylistic,
+      '@typescript-eslint': typescriptEslint,
+      perfectionist,
+      prettier,
     },
 
     rules: {
+      '@stylistic/multiline-comment-style': ['error', 'starred-block'],
       '@typescript-eslint/array-type': 'error',
       '@typescript-eslint/consistent-type-assertions': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
@@ -108,21 +111,25 @@ export default defineConfig([
         },
       ],
 
+      /*
+       * We use a plugin instead of ESLint's core `sort-keys` rule because that rule is
+       * frozen and provides no autofix.
+       * https://eslint.org/docs/latest/rules/sort-keys#require-object-keys-to-be-sorted-sort-keys
+       */
+      'perfectionist/sort-objects': [
+        'warn',
+        {
+          ignoreCase: false,
+          order: 'asc',
+          type: 'natural',
+        },
+      ],
+
       'prefer-arrow-callback': 'error',
       'prefer-const': 'error',
       'prefer-promise-reject-errors': 'error',
       'prettier/prettier': 'error',
       'sort-imports': 'off',
-
-      'sort-keys-fix/sort-keys-fix': [
-        'warn',
-        'asc',
-        {
-          caseSensitive: true,
-          natural: true,
-        },
-      ],
-
       'sort-vars': 'error',
       'space-in-parens': 'error',
       strict: ['error', 'global'],
