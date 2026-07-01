@@ -1126,9 +1126,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.12.0, axios@^1.15.2:
-  version "1.16.1"
-  resolved "https://registry.npmjs.org/axios/-/axios-1.16.1.tgz#517e29291d19d6e8cf919ff264f4fe157261ba12"
-  integrity sha512-caYkukvroVPO8KrzuJEb50Hm07KwfBZPEC3VeFHTsqWHvKTsy54hjJz9BS/cdaypROE2rH6xvm9mHX4fgWkr3A==
+  version "1.18.1"
+  resolved "https://registry.npmjs.org/axios/-/axios-1.18.1.tgz#d63f9863bcd8938815c86f9e2abd380189d96dfe"
+  integrity sha512-3nTvFlvpn9Zu/RkHUqtc7/+al4UpRW5az71ap5zccp6e8RAYEzhMTecX8Dz1wWDYrPpUoB1HAQEGEAEvUr7S9g==
   dependencies:
     follow-redirects "^1.16.0"
     form-data "^4.0.5"
@@ -2174,9 +2174,9 @@ globals@^14.0.0:
   integrity sha512-oahGvuMGQlPw/ivIYBjVSrWAfWLBeku5tpPE2fOPLi+WHffIWbuh2tCjhyQhTBPMf5E9jDEH4FOmTYgYwbKwtQ==
 
 globals@^17.4.0:
-  version "17.6.0"
-  resolved "https://registry.npmjs.org/globals/-/globals-17.6.0.tgz#0f0be018d5cca8690e6375ead1f65c4bb96191fc"
-  integrity sha512-sepffkT8stwnIYbsMBpoCHJuJM5l98FUF2AnE07hfvE0m/qp3R586hw4jF4uadbhvg1ooIdzuu7CsfD2jzCaNA==
+  version "17.7.0"
+  resolved "https://registry.npmjs.org/globals/-/globals-17.7.0.tgz#553d55090b4dde8209ec2da42580d6e7e7d8b10d"
+  integrity sha512-Czmyns5dUsq4seFBR/Kdydhmo8y9kC79hiSkPn0YcGtNnYWnrgt0vjrSjx9tspoDGWm2CMarffRuLjM4xUz8xg==
 
 gopd@^1.2.0:
   version "1.2.0"
