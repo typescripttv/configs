@@ -938,7 +938,7 @@
     tinyglobby "^0.2.15"
     ts-api-utils "^2.5.0"
 
-"@typescript-eslint/utils@8.62.1", "@typescript-eslint/utils@^8.58.2":
+"@typescript-eslint/utils@8.62.1", "@typescript-eslint/utils@^8.61.0":
   version "8.62.1"
   resolved "https://registry.npmjs.org/@typescript-eslint/utils/-/utils-8.62.1.tgz#1622b75c7e6df308181dd0b44855dc4228da0457"
   integrity sha512-sHtbPfuKNZCG+ih8SyjjucqRntSVmp8XgL5u6o9mAhiSn8ds5o/M/XdM0abweme2Tln3szOstOrZ9OXitvPh0g==
@@ -1747,11 +1747,11 @@ eslint-config-prettier@^10.1.8:
   integrity sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==
 
 eslint-plugin-perfectionist@^5.9.0:
-  version "5.9.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-5.9.0.tgz#d8844892fa4b1069df27910f41d7e7981df1ca4b"
-  integrity sha512-8TWzg02zmnBdZwCkWLi8jhzqXI+fE7Z/RwV8SL6xD45tJ8Bp3wGuYL2XtQgfe/Wd0eBqOUX+s6ey73IyszvKTA==
+  version "5.9.1"
+  resolved "https://registry.npmjs.org/eslint-plugin-perfectionist/-/eslint-plugin-perfectionist-5.9.1.tgz#5f9584fa2d65dcc94ff4f68043ef7cfe3df36ff3"
+  integrity sha512-30mHLNfEhzwaq5cquyWgnzrNXvT8AzwIwyeH5aj4U5ajhHSF2uiO6i09xpMDLv7koaZVTjLsvYF4m3gK/15tyA==
   dependencies:
-    "@typescript-eslint/utils" "^8.58.2"
+    "@typescript-eslint/utils" "^8.61.0"
     natural-orderby "^5.0.0"
 
 eslint-plugin-prettier@^5.5.5:
