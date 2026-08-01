@@ -875,14 +875,14 @@
     ts-api-utils "^2.5.0"
 
 "@typescript-eslint/parser@^8.56.1":
-  version "8.62.1"
-  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.62.1.tgz#d3f7ba18f1bf78bfb7256fea021d1927b48e7080"
-  integrity sha512-sPhE4iHuJDSvoAiec+Ro8JyXw8f0ql13HFR82P99nCm9GwTEKG0KYLvDe6REk8BCXuit6vJAv/Yxg5ABaNS2rA==
+  version "8.65.0"
+  resolved "https://registry.npmjs.org/@typescript-eslint/parser/-/parser-8.65.0.tgz#5295c1058c0a1dd746ef28baaf9c0341dbdf03dc"
+  integrity sha512-CZ4nMxWwgu1HEEFNkeaCptra9QCtkmKdgf3sWh1rl1trIhmxLilgTV4cwcbQ4wemnT4sWQN8CaKOmdYx+g2gMA==
   dependencies:
-    "@typescript-eslint/scope-manager" "8.62.1"
-    "@typescript-eslint/types" "8.62.1"
-    "@typescript-eslint/typescript-estree" "8.62.1"
-    "@typescript-eslint/visitor-keys" "8.62.1"
+    "@typescript-eslint/scope-manager" "8.65.0"
+    "@typescript-eslint/types" "8.65.0"
+    "@typescript-eslint/typescript-estree" "8.65.0"
+    "@typescript-eslint/visitor-keys" "8.65.0"
     debug "^4.4.3"
 
 "@typescript-eslint/project-service@8.62.1":
@@ -940,12 +940,12 @@
     debug "^4.4.3"
     ts-api-utils "^2.5.0"
 
-"@typescript-eslint/types@8.62.1", "@typescript-eslint/types@^8.56.0", "@typescript-eslint/types@^8.62.1":
+"@typescript-eslint/types@8.62.1":
   version "8.62.1"
   resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-8.62.1.tgz#c58be954e483b2fc98275374d5bcb40b99842dc1"
   integrity sha512-ooCzJFaf+Hg+uG6fA3NRFGuFjlfNlDhBthbv4ZPU/0elCAFUfnyXUvf/WOpHz/jYwSmvU2GkR2LtyUfy1AxZ1Q==
 
-"@typescript-eslint/types@8.65.0", "@typescript-eslint/types@^8.65.0":
+"@typescript-eslint/types@8.65.0", "@typescript-eslint/types@^8.56.0", "@typescript-eslint/types@^8.62.1", "@typescript-eslint/types@^8.65.0":
   version "8.65.0"
   resolved "https://registry.npmjs.org/@typescript-eslint/types/-/types-8.65.0.tgz#3e86738416a777c8b8925ab46745f48ecf904c9f"
   integrity sha512-JSSwWNy+H0E/01jJEM+hrX6N0OFDzFzeIhHFSAS01tlVaevpG8cFyYRPhS5yjGOvBUx3sqQHVMjCL1CAZZMxBg==
